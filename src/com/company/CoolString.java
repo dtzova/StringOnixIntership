@@ -65,6 +65,10 @@ public class CoolString {
         }
     }
 
+    public CoolString concat(CoolString s){
+        return new CoolString(get() + s.get());
+    }
+
     public static CoolString intToString(int num){
         return new CoolString(""+num);
     }

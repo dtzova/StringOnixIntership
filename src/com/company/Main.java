@@ -21,6 +21,10 @@ public class Main {
 
         System.out.println(split[0].get());
         System.out.println(split[1].get());
+
+        str = str.concat(new CoolString("\nConcat test 456"));
+
+        System.out.println(str.get());
     }
 
     static void SearchTest(CoolString where, String search){
